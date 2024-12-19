@@ -1,10 +1,9 @@
 package arrays;
 
-import java.lang.reflect.Array;
-
 public class MyClass {
     public static void main(String[] args) {
       int arr [] = {1,2,3,4,5,6,8,12,25,43,18};
+     //  int arr1 [] = new int[5];  we can intialize in this way as well
 
       int max = Integer.MIN_VALUE;
       int min = Integer.MAX_VALUE;
